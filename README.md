@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Basic Statistics
 Features: TBD
 =======
@@ -8,9 +9,13 @@ a subject software system.
 =======
 # Basic Statistics
 >>>>>>> e0ca8e1 (Updated the README)
+=======
+# Basic Statistics
+>>>>>>> e0ca8e1 (Updated the README)
 
 Basic Statistics uses the Apache Ant build system. **Make sure that you have [Ant](https://ant.apache.org) installed.**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 #### How to build Basic Statistics and run its tests from the terminal:
 
@@ -58,6 +63,12 @@ How to build:
 
 1. Be sure you are in the root directory with build.xml in your current directory.
 
+=======
+How to build:
+
+1. Be sure you are in the root directory with build.xml in your current directory.
+
+>>>>>>> e0ca8e1 (Updated the README)
 2. Be sure that you have ant installed
 
 3. Type ant to compile
@@ -77,4 +88,7 @@ Features:
 * Mean
 * Median
 * Mode
+<<<<<<< HEAD
+>>>>>>> e0ca8e1 (Updated the README)
+=======
 >>>>>>> e0ca8e1 (Updated the README)
