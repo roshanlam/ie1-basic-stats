@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 #Basic Statistics
 Features: TBD
 =======
 Basic Statistics is a Java-based implementation for computing statistics on a set of numbers.
 This implementation is intended to be used in software engineering courses as
 a subject software system.
+=======
+# Basic Statistics
+>>>>>>> e0ca8e1 (Updated the README)
 
 Basic Statistics uses the Apache Ant build system. **Make sure that you have [Ant](https://ant.apache.org) installed.**
 
+<<<<<<< HEAD
 #### How to build Basic Statistics and run its tests from the terminal:
 
 1. Change into the Basic Statistics root directory, which contains the *build.xml* build file.
@@ -48,3 +53,28 @@ BUILD FAILED
 build.xml:17 Unable to find a javac compiler;
 ```
 Make sure that you have a JDK installed and that the JAVA_HOME environment variable is properly set.
+=======
+How to build:
+
+1. Be sure you are in the root directory with build.xml in your current directory.
+
+2. Be sure that you have ant installed
+
+3. Type ant to compile
+
+4. Compiled java classes will be in /bin
+
+How to run:
+
+1. After typing ant, cd into /bin to run the PrettyGood.class file. "java PrettyGood". A GUI should show up
+
+2. In the root directory, type ant test to run tests.
+
+3. Whenever you want to clean the /bin folder. Type ant clean
+
+Features:
+* Displayed Numbers
+* Mean
+* Median
+* Mode
+>>>>>>> e0ca8e1 (Updated the README)
