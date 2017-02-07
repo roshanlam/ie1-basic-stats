@@ -62,6 +62,7 @@ Make sure that you have a JDK installed and that the JAVA_HOME environment varia
 =======
 How to build:
 
+<<<<<<< HEAD
 1. Be sure you are in the root directory with build.xml in your current directory.
 
 =======
@@ -69,8 +70,14 @@ How to build:
 =======
 How to build (from Terminal):
 >>>>>>> f60980c (Updated README)
+=======
+A Java-based implementation for descriptive statistics. This
+implementation is merely intended to be used in software engineering courses.
 
-1. Make sure that you have ant installed.
+How to build and test (from Terminal):
+>>>>>>> a2583e6 (Updated README file.)
+
+1. Make sure that you have Ant installed.
 
 <<<<<<< HEAD
 >>>>>>> e0ca8e1 (Updated the README)
@@ -83,16 +90,16 @@ How to build (from Terminal):
 
 4. Compiled java classes will be in the `bin` directory.
 
-5. Whenever you want to clean up the project, run `ant clean`
+5. Run `ant test` to run all unit tests.
+
+6. Whenever you want to clean up the project, run `ant clean`
 
 How to run (from Terminal):
 
-1. After running ant, cd into the `bin` directory and run: `java BasicStats`.
-   The application's GUI should show up.
+1. After building the project (i.e., running `ant`), cd into the `bin`
+   directory and run: `java BasicStats`. The application's GUI should show up.
 
-2. In the root directory, run `ant test` to run tests.
-
-
+<<<<<<< HEAD
 Features:
 * Displayed Numbers
 * Mean
@@ -102,3 +109,10 @@ Features:
 >>>>>>> e0ca8e1 (Updated the README)
 =======
 >>>>>>> e0ca8e1 (Updated the README)
+=======
+Program features:
+* Displayed numbers
+* Mean computation
+* Median computation
+* Mode computation
+>>>>>>> a2583e6 (Updated README file.)
