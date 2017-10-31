@@ -1,8 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Basic Statistics
 Features: TBD
 =======
+=======
+# Basic Statistics
+
+>>>>>>> da90e87 (Updated README.md)
 Basic Statistics is a Java-based implementation for computing statistics on a set of numbers.
 This implementation is intended to be used in software engineering courses as
 a subject software system.
@@ -17,6 +22,9 @@ Basic Statistics uses the Apache Ant build system. **Make sure that you have [An
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> da90e87 (Updated README.md)
 #### How to build Basic Statistics and run its tests from the terminal:
 
 1. Change into the Basic Statistics root directory, which contains the *build.xml* build file.
@@ -27,6 +35,7 @@ Basic Statistics uses the Apache Ant build system. **Make sure that you have [An
 
 5. Run `ant clean` whenever you want to clean up the project (i.e., delete all generated files).
 
+<<<<<<< HEAD
 
 #### How to run Basic Statistics from the terminal:
 
@@ -34,17 +43,29 @@ Basic Statistics uses the Apache Ant build system. **Make sure that you have [An
 
 
 <<<<<<< HEAD
+=======
+#### How to run Basic Statistics from the terminal:
+
+1. After building the project (i.e., running `ant compile`), run: `java -cp bin BasicStats`. The application's GUI will show up.
+
+>>>>>>> da90e87 (Updated README.md)
 #### Program features:
 * Displays a set of entered numbers.
 * Computes the mean of the set of numbers.
 * Computes the median of the set of numbers.
 * Computes the mode of the set of numbers.
 
+<<<<<<< HEAD
 
 ## Troubleshooting
 
 #### Outdated version of JUnit
 
+=======
+## Troubleshooting
+
+#### Outdated version of JUnit
+>>>>>>> da90e87 (Updated README.md)
 If your system uses an outdated version of JUnit, you may encounter the following error:
 ```
 [junit] junit/framework/JUnit4TestAdapterCache
@@ -59,6 +80,7 @@ BUILD FAILED
 build.xml:17 Unable to find a javac compiler;
 ```
 Make sure that you have a JDK installed and that the JAVA_HOME environment variable is properly set.
+<<<<<<< HEAD
 =======
 How to build:
 
@@ -116,3 +138,5 @@ Program features:
 * Median computation
 * Mode computation
 >>>>>>> a2583e6 (Updated README file.)
+=======
+>>>>>>> da90e87 (Updated README.md)
