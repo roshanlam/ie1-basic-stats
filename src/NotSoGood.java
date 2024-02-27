@@ -1,7 +1,6 @@
 import java.util.*;
 import javax.swing.*;
 
-<<<<<<< HEAD
 import java.awt.*;
 import java.awt.event.*;
 
@@ -9,12 +8,6 @@ public class NotSoGood {
 
 		// Store all collected numbers
     private static ArrayList<Double> data = new ArrayList<Double>();
-=======
-public class NotSoGood {
-
-		// Store all collected numbers
-    private static ArrayList<Integer> data = new ArrayList<Integer>();
->>>>>>> 769e45d (Added simple window application for NotSoGood)
 
     public static void main(String ... args) {
 
@@ -32,7 +25,6 @@ public class NotSoGood {
     jfMain.setSize(600,400);
     jfMain.setLocationRelativeTo(null);
 
-<<<<<<< HEAD
 		// Panel that shows stats about the numbers
     JPanel jpStats = new JPanel(new FlowLayout(FlowLayout.CENTER));
     JTextField jtfCount = new JTextField(5);
@@ -100,16 +92,12 @@ public class NotSoGood {
 
 
     jfMain.getContentPane().add(jpInput, BorderLayout.NORTH);
-=======
-
->>>>>>> 769e45d (Added simple window application for NotSoGood)
 
     // Show the frame
     jfMain.setVisible(true);
 
 	}
 
-<<<<<<< HEAD
 	private static double[] getArrayDouble(ArrayList<Double> doubles) {
 		double[] result = new double[doubles.size()];
 
@@ -120,6 +108,5 @@ public class NotSoGood {
 		return result;
 	}
 
-=======
->>>>>>> 769e45d (Added simple window application for NotSoGood)
 }
+
