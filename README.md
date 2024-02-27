@@ -1,13 +1,4 @@
 #Basic Statistics
-
-<<<<<<< HEAD
-A Java-based implementation for descriptive statistics. This
-implementation is merely intended to be used in the CS520/620 course.
-
-How to build: TBD
-
-How to run: TBD
-
 Features: TBD
 =======
 Basic Statistics is a Java-based implementation for computing statistics on a set of numbers.
@@ -26,9 +17,11 @@ Basic Statistics uses the Apache Ant build system. **Make sure that you have [An
 
 5. Run `ant clean` whenever you want to clean up the project (i.e., delete all generated files).
 
+
 #### How to run Basic Statistics from the terminal:
 
 1. After building the project (i.e., running `ant compile`), run: `java -cp bin BasicStats`. The application's GUI will show up.
+
 
 #### Program features:
 * Displays a set of entered numbers.
@@ -36,9 +29,11 @@ Basic Statistics uses the Apache Ant build system. **Make sure that you have [An
 * Computes the median of the set of numbers.
 * Computes the mode of the set of numbers.
 
+
 ## Troubleshooting
 
 #### Outdated version of JUnit
+
 If your system uses an outdated version of JUnit, you may encounter the following error:
 ```
 [junit] junit/framework/JUnit4TestAdapterCache
@@ -53,4 +48,3 @@ BUILD FAILED
 build.xml:17 Unable to find a javac compiler;
 ```
 Make sure that you have a JDK installed and that the JAVA_HOME environment variable is properly set.
->>>>>>> da90e87 (Updated README.md)
